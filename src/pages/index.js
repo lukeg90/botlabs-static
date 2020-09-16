@@ -6,7 +6,7 @@ import Kilt from "../components/image/kilt"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="BOTlabs" />
     <div className="main-container">
       <div className="kilt-plug">
         <p className="plug-text">The Company behind Kilt</p>
@@ -26,7 +26,10 @@ const IndexPage = () => (
         <p style={{ fontWeight: "bold" }}>BOTlabs</p>
         <p>Keithsraße 2-4</p>
         <p>10787 Berlin</p>
-        <a href="mailto:info@botlabs.org"> info@botlabs.org</a>
+        <a target="_blank" rel="noopener" href="mailto:info@botlabs.org">
+          {" "}
+          info@botlabs.org
+        </a>
       </div>
     </div>
   </Layout>

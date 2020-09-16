@@ -7,7 +7,7 @@ export default function Kilt() {
     query {
       file(relativePath: { eq: "kilt.png" }) {
         childImageSharp {
-          fluid(quality: 99) {
+          fluid(quality: 99, maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
